@@ -8,10 +8,6 @@ class Player
     @hit_points = default_points
   end
 
-  def attack(player)
-    player.deduct_points
-  end
-
   def deduct_points
     @hit_points -= STEP
   end
