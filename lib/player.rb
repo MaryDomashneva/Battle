@@ -3,7 +3,7 @@ class Player
   DEFAULT_HIT_POINTS = 60
   STEP = 10
 
-  def initialize(name, default_points = DEFAULT_HIT_POINTS)
+  def initialize(name = "Player", default_points = DEFAULT_HIT_POINTS)
     @name = name
     @hit_points = default_points
   end
