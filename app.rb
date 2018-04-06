@@ -20,16 +20,23 @@ class Battle < Sinatra::Base
 
   get '/play' do
     @game = $game
-    if @game.active_player == nil
-      @game.first_turn
+    @game.first_turn if !@game.started?
+    if @game.finished?
+      redirect '/finish'
+    else
+      erb :play
     end
-    erb :play
   end
 
   get '/attack_player' do
     @game = $game
     @game.attack(@game.active_player)
     erb :attack_player
+  end
+
+  get '/finish' do
+    @game = $game
+    erb :finish
   end
 
   run! if app_file == $0

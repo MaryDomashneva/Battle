@@ -42,8 +42,24 @@ class Game
     end
   end
 
-  def self.current_game
-    return @@current_game
+  def started?
+    @active_player != nil
+  end
+
+  def finished?
+    @player_1.hit_points == 0 || @player_2.hit_points == 0
+  end
+
+  def winner
+    return nil if !finished?
+    return @player_1 if @player_1.hit_points > 0
+    return @player_2 if @player_2.hit_points > 0
+  end
+
+  def looser
+    return nil if !finished?
+    return @player_1 if @player_1.hit_points == 0
+    return @player_2 if @player_2.hit_points == 0
   end
 
 end

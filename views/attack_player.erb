@@ -1,0 +1,6 @@
+<p>
+  <%= @game.active_player.name %> attacked <%= @game.dependent_player.name %>
+<p/>
+<a href="/play">OK</a>
+<p><%= @game.active_player.name%>: <%= @game.active_player.hit_points %>HP<p/>
+<p><%= @game.dependent_player.name%>: <%= @game.dependent_player.hit_points %>HP<p/>

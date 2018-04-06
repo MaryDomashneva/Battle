@@ -11,5 +11,6 @@ class Player
 
   def deduct_points
     @hit_points -= (@default_step != nil ? @default_step : STEP.sample)
+    @hit_points = [0, @hit_points].max
   end
 end
