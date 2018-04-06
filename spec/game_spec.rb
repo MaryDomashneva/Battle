@@ -12,6 +12,7 @@ describe Game do
     context 'when player_1 attacks player_2' do
       it 'deduct the points of player_2' do
         game = Game.new(player_1, player_2)
+        game.first_turn(player_1)
         game.attack(player_1)
         expect(player_2).to have_received(:deduct_points)
       end
@@ -20,6 +21,7 @@ describe Game do
     context 'when player_2 attacks player_1' do
       it 'deduct the points of player_2' do
         game = Game.new(player_1, player_2)
+        game.first_turn(player_2)
         game.attack(player_2)
         expect(player_1).to have_received(:deduct_points)
       end
