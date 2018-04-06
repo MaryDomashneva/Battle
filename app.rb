@@ -24,6 +24,18 @@ class Battle < Sinatra::Base
     erb :play
   end
 
+  get 'play' do
+    @Player_1 = $Player_1
+    @Player_2 = $Player_2
+    active_player =$Game.first_turn
+    $Game.switchig_turns(active_player)
+    #if active_player == @Player_1
+    #deactivate '/attack_player_2'
+    #else
+    #deactivate '/attack_player_1'
+
+  end
+
   get '/attack_player_1' do
     @Player_1 = $Player_1
     @Player_2 = $Player_2
