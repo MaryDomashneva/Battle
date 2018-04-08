@@ -1,7 +1,7 @@
 require 'game'
 
 describe Game do
-  it {expect(subject).to respond_to(:attack)}
+  it { expect(subject).to respond_to(:attack) }
   let (:player_1) { double :player}
   let (:player_2) { double :player}
   before {
