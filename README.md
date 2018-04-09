@@ -45,7 +45,7 @@ Result
 <img src="https://monosnap.com/file/kL8jPDPeZEGOIUJTCjOpXidOZOZWbv.png" height="200" width="350" />
 
 ## Screen #2 ```/play```
-<img src="https://monosnap.com/file/EBxb8tEipqEl1t4eaxXq0gMjkPgDwt.png" height="200" width="350" />
+<img src="https://monosnap.com/file/EBxb8tEipqEl1t4eaxXq0gMjkPgDwt.png" height="200" width="4350" />
 
 ## Screen #3 ```/attack_player```
 <img src="https://monosnap.com/file/ccVQyiBjaphm9vHu8Yw0zRurZo8vED.png" height="200" width="350" />
