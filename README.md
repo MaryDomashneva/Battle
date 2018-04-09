@@ -40,3 +40,15 @@ I want a sexy user interface
 
 Result
 -----
+
+## Screen #1 ```/names```
+<img src="https://monosnap.com/file/kL8jPDPeZEGOIUJTCjOpXidOZOZWbv.png" height="200" width="350" />
+
+## Screen #2 ```/play```
+<img src="https://monosnap.com/file/EBxb8tEipqEl1t4eaxXq0gMjkPgDwt.png" height="200" width="350" />
+
+## Screen #3 ```/attack_player```
+<img src="https://monosnap.com/file/ccVQyiBjaphm9vHu8Yw0zRurZo8vED.png" height="200" width="350" />
+<img src="https://monosnap.com/file/YHQWCCVsfpnwUi3aUScwoCs8BbOLZ7.png" height="200" width="350" />
+
+## Screen #4 ```/finish```
