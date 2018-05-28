@@ -1,9 +1,17 @@
+[![Build Status](https://travis-ci.org/MaryDomashneva/battle-challenge.svg?branch=master)](https://travis-ci.org/MaryDomashneva/battle-challenge)
+
 Battle Challenge
 ==================
 
 [Check project online](https://secret-beyond-83744.herokuapp.com/)
 
-Task
+Task:
+----
+
+This project is an introduction to games.
+The goal is to write a Battle game for two players.
+
+User stoty:
 -----
 
 ```
@@ -40,17 +48,24 @@ So I can enjoy my game of Battle,
 I want a sexy user interface
 ```
 
-Result
+Technologies used:
 -----
 
-## Screen #1 ```/names```
-<img src="https://monosnap.com/file/kL8jPDPeZEGOIUJTCjOpXidOZOZWbv.png" height="200" width="350" />
+1. ruby 2.5.0
+2. sinatra
+4. capybara
 
-## Screen #2 ```/play```
-<img src="https://monosnap.com/file/EBxb8tEipqEl1t4eaxXq0gMjkPgDwt.png" height="200" width="350" />
+Run project:
+-----
 
-## Screen #3 ```/attack_player```
-<img src="https://monosnap.com/file/ccVQyiBjaphm9vHu8Yw0zRurZo8vED.png" height="200" width="350" />
-<img src="https://monosnap.com/file/YHQWCCVsfpnwUi3aUScwoCs8BbOLZ7.png" height="200" width="350" />
+* Clone the progect and type ```bundle install``` in terminal
+* Local on your machine: Clone this project, use [http-server]
+* Onlinel: use this [link](https://secret-beyond-83744.herokuapp.com/)
+* To run tests, type ```rspec```
 
-## Screen #4 ```/finish```
+Result:
+-----
+
+The app has 2 classes:
+* game - contains information about players and handle the logic of the game.
+* player - contains information about user name, hit points and default step.
